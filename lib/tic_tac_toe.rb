@@ -71,7 +71,7 @@ def turn
       move(index, current_player)
       display_board
     end
-end
+
  
  def won?
    WIN_COMBINATIONS.detect do |winner| 
